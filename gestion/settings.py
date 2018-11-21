@@ -126,7 +126,7 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/1.10/howto/static-files/
 
 STATIC_URL = '/static/'
-STATIC_ROOT = '/var/www/html/iaw_gestionGN/static/'
+STATIC_ROOT = '/home/debian/iaw_gestionGN/static/'
 
 
 #STATICFILES_DIRS = (
