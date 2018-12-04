@@ -25,7 +25,7 @@ SECRET_KEY = 'd$ug$)j1jhr2%z4gnpbc9^v^@4*sbu5we9nt_dtg72x7e+xq^('
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['kevinredfield69.pythonanywhere.com']
+ALLOWED_HOSTS = ['172.22.200.120']
 
 
 # Application definition
@@ -80,10 +80,10 @@ WSGI_APPLICATION = 'gestion.wsgi.application'
 DATABASES = {
     'default': {
 	'ENGINE': 'django.db.backends.mysql',
-	'NAME': 'kevinredfield69$gestion',
-	'USER': 'kevinredfield69',
-	'PASSWORD': 'usuario123',
-	'HOST': 'kevinredfield69.mysql.pythonanywhere-services.com',
+	'NAME': 'gestion',
+	'USER': 'kevin',
+	'PASSWORD': 'usuario',
+	'HOST': 'localhost',
 	'PORT': '',
     }
 }
@@ -126,7 +126,7 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/1.10/howto/static-files/
 
 STATIC_URL = '/static/'
-STATIC_ROOT = '/home/kevinredfield69/iaw_gestionGN/static/'
+STATIC_ROOT = '/home/debian/iaw_gestionGN/static/'
 
 
 #STATICFILES_DIRS = (
